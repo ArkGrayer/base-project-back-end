@@ -21,7 +21,7 @@
 	},
 	"scripts": {
 		"prepare": "husky install",
-		"husky:pre-commit": "tsc && list-staged",
+		"husky:pre-commit": "tsc && lint-staged",
 		"dev": "ts-node-dev -r tsconfig-paths/register src/index.ts",
 		"test": "jest",
 		"test:cov": "jest --coverage",

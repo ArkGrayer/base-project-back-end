@@ -1,11 +1,5 @@
 import { RepositoryKeys } from "v1/tests/mocks/repository";
-import {
-	Column,
-	Entity,
-	ObjectIdColumn,
-	Repository,
-	PrimaryColumn,
-} from "typeorm";
+import { Column, Entity, Repository, PrimaryColumn } from "typeorm";
 
 @Entity()
 export class ExampleEntity {
